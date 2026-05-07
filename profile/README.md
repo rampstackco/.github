@@ -21,9 +21,10 @@ RampStack ships open-source skills, tools, and reference workflows for teams tha
 
 ### [claude-skills](https://github.com/rampstackco/claude-skills)
 
-A complete library of 59 Claude Skills covering the full website lifecycle. Each skill follows a uniform structure (when to use, when NOT to use, required inputs, framework, workflow, failure patterns, output format, references) so they compose cleanly across a real project. Includes an Ahrefs MCP-powered SEO audit suite.
+<!-- TODO: refresh count below when catalog crosses next round number -->
+A complete library of 98 Claude Skills covering the full website lifecycle. Each skill follows a uniform structure (when to use, when NOT to use, required inputs, framework, workflow, failure patterns, output format, references) so they compose cleanly across a real project. Includes an Ahrefs MCP-powered SEO audit suite.
 
-[Browse the catalog →](https://github.com/rampstackco/claude-skills#the-59-skill-catalog)
+[Browse the catalog →](https://github.com/rampstackco/claude-skills/tree/main/skills)
 
 ## Stay in the loop
 
