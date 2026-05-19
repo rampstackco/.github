@@ -17,14 +17,37 @@
 
 RampStack ships open-source skills, tools, and reference workflows for teams that build with Claude. The work spans brand, design, content, SEO, development, ops, growth, and research. Stack-agnostic by default. Future-proof by design.
 
-## Featured projects
+## Open source projects
 
-### [claude-skills](https://github.com/rampstackco/claude-skills)
+A coherent set of skill catalogs and component libraries for Claude Code, designed to compose based on what you're working on.
 
-<!-- TODO: refresh count below when catalog crosses next round number -->
-A complete library of 98 Claude Skills covering the full website lifecycle. Each skill follows a uniform structure (when to use, when NOT to use, required inputs, framework, workflow, failure patterns, output format, references) so they compose cleanly across a real project. Includes an Ahrefs MCP-powered SEO audit suite.
+| Repo | What it is | Size |
+|---|---|---|
+| [claude-skills](https://github.com/rampstackco/claude-skills) | Full skill catalog covering SEO, content, brand, design, conversion, paid media, analytics, PM, and dev. Includes an Ahrefs MCP-powered SEO audit suite. | 99 skills |
+| [claude-skills-starter](https://github.com/rampstackco/claude-skills-starter) | General-purpose curated subset for Claude Code performance and new-user onboarding | 14 skills |
+| [claude-skills-seo](https://github.com/rampstackco/claude-skills-seo) | SEO-focused curated subset for SEO consultants, freelancers, and agency teams | 12 skills |
+| [claude-skills-widgets](https://github.com/rampstackco/claude-skills-widgets) | Widget pattern documentation plus production-ready React and HTML/CSS component implementations | 65 patterns + 32 components |
+| [awesome-claude-skills](https://github.com/rampstackco/awesome-claude-skills) | Curated list of Claude Skills, resources, and tools from across the ecosystem | Curated list |
 
-[Browse the catalog →](https://github.com/rampstackco/claude-skills/tree/main/skills)
+## Pairing patterns
+
+| Working on | Load this combo |
+|---|---|
+| General Claude Code use | claude-skills-starter |
+| Pure SEO consulting | claude-skills-seo |
+| SEO + landing page builds | claude-skills-seo + claude-skills-widgets |
+| Frontend / landing page work | claude-skills-widgets |
+| Full-stack marketing or web | claude-skills (full catalog) |
+
+## How the family fits together
+
+The full **claude-skills** catalog is the canonical home for all skill content. Curated subsets like **claude-skills-starter** and **claude-skills-seo** copy from the full catalog with attribution; each is independently maintained but tracks upstream changes.
+
+**claude-skills-widgets** is a different artifact: instead of skill documentation, it ships actual code (React components plus HTML/CSS implementations) along with the documented patterns those components implement. Live previews are hosted at [rampstack.co/showcase/widgets](https://rampstack.co/showcase/widgets).
+
+**awesome-claude-skills** is a curated list of Claude Skills, resources, and tools from across the ecosystem, not limited to RampStack's own catalogs.
+
+All public repos are MIT licensed. Use freely in commercial and non-commercial projects.
 
 ## Stay in the loop
 
