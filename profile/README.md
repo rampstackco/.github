@@ -23,7 +23,7 @@ A coherent set of skill catalogs and component libraries for Claude Code, design
 
 | Repo | What it is | Size |
 |---|---|---|
-| [claude-skills](https://github.com/rampstackco/claude-skills) | Full skill catalog covering SEO, content, brand, design, conversion, paid media, analytics, PM, and dev. Includes an Ahrefs MCP-powered SEO audit suite. | 102 skills |
+| [claude-skills](https://github.com/rampstackco/claude-skills) | Full skill catalog covering SEO, content, brand, design, conversion, paid media, analytics, PM, and dev. Includes an Ahrefs MCP-powered SEO audit suite. | 100+ skills |
 | [claude-skills-starter](https://github.com/rampstackco/claude-skills-starter) | General-purpose curated subset for Claude Code performance and new-user onboarding | 14 skills |
 | [claude-skills-seo](https://github.com/rampstackco/claude-skills-seo) | SEO-focused curated subset for SEO consultants, freelancers, and agency teams | 12 skills |
 | [claude-skills-pm](https://github.com/rampstackco/claude-skills-pm) | PM-focused curated subset for product managers, founders wearing a PM hat, and in-house teams | 12 skills |
