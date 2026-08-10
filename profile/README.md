@@ -30,6 +30,22 @@ A coherent set of skill catalogs and component libraries for Claude Code, design
 | [claude-skills-widgets](https://github.com/rampstackco/claude-skills-widgets) | Widget pattern documentation plus production-ready React and HTML/CSS component implementations | 65 patterns + 32 components |
 | [awesome-claude-skills](https://github.com/rampstackco/awesome-claude-skills) | Curated list of Claude Skills, resources, and tools from across the ecosystem | Curated list |
 
+### Design direction themes
+
+Grab-and-go themes, picked by design style rather than by component list. Thirteen sibling repos, each shipping annotated design tokens with their measured contrast ratios, a component layer, Tailwind v3 and v4 adapters, and a demo that opens from a file with nothing installed. The eight registers and the layout archetype also document a shadcn/ui bridge, with tokens namespaced so they will not clobber yours.
+
+Three artifact classes: seven **surface registers**, one **layout archetype**, and five **shells**, which ship a structure a site lives inside (a window manager or a board, a taskbar or a dock, an enhancement contract and a focus model) with the register they wear left swappable. The shells share a public constitution, the [class decision log](https://github.com/rampstackco/desktop-os-theme/blob/main/docs/class-decisions.md) that a new shell reads first and continues.
+
+| Repo | What it is | Class |
+|---|---|---|
+| [vivaocean-theme](https://github.com/rampstackco/vivaocean-theme) | One window held in open water, over a ground that animates forever and still clears AA on every frame of it | Shell, showcase flagship |
+| [desktop-os-theme](https://github.com/rampstackco/desktop-os-theme) | Cascading windows with a real if deliberately small window manager, an icon grid, and a taskbar that tracks what is open | Shell |
+| [bento-grid-theme](https://github.com/rampstackco/bento-grid-theme) | A mosaic layout kept separate from the surface it wears, with three named arrangements and a re-skin demo that proves the separation | Layout |
+| [neobrutalism-theme](https://github.com/rampstackco/neobrutalism-theme) | Hard borders, offset shadows with no blur, and saturated flat fills on a warm paper ground | Surface register |
+| [glassmorphism-theme](https://github.com/rampstackco/glassmorphism-theme) | Frosted surfaces at three elevation tiers over a lit ground, with every contrast ratio measured against a computed worst case | Surface register |
+
+Five of the thirteen: one from each class, plus the showcase flagship and the pilot the shell class was written from. All thirteen are in the gallery at [rampstack.co/themes](https://rampstack.co/themes).
+
 ## Pairing patterns
 
 | Working on | Load this combo |
@@ -59,9 +75,7 @@ The tables above are the skill catalogs. They sit inside a larger set, and the r
 
 **Workflows.** The full catalog also carries a [workflows tier](https://github.com/rampstackco/claude-skills/tree/main/workflows): fifteen multi-skill runbooks with their connectors and published run records.
 
-**Design direction themes.** Eight register repos, each shipping annotated design tokens with their measured contrast ratios, a component layer, two Tailwind adapters, and a demo that opens from a file: [neobrutalism](https://github.com/rampstackco/neobrutalism-theme), [glassmorphism](https://github.com/rampstackco/glassmorphism-theme), [Swiss style](https://github.com/rampstackco/swiss-style-theme), [bento grid](https://github.com/rampstackco/bento-grid-theme), [brutalist web](https://github.com/rampstackco/brutalist-web-theme), [corporate memphis](https://github.com/rampstackco/corporate-memphis-theme), [SaaS landing](https://github.com/rampstackco/saas-landing-theme), and [terminal UI](https://github.com/rampstackco/terminal-ui-theme). The gallery is at [rampstack.co/themes](https://rampstack.co/themes).
-
-**Creative direction.** Each theme states its coordinates in the [creative direction framework](https://rampstack.co/framework/creative-direction), which sets brand direction on four axes, and the [showcase](https://rampstack.co/showcase/creative-direction) renders archetypes at each position on it.
+**Creative direction.** Each of the thirteen themes above states its coordinates in the [creative direction framework](https://rampstack.co/framework/creative-direction), which sets brand direction on four axes, and the [showcase](https://rampstack.co/showcase/creative-direction) renders archetypes at each position on it.
 
 **Engines.** [Krine](https://github.com/rampstackco/krine), [Tholo](https://github.com/rampstackco/tholo), and [Basano](https://github.com/rampstackco/basano) run on one runtime: Krine decides, Tholo builds, Basano proves. [The engines page](https://rampstack.co/engines) covers what the three share.
 
